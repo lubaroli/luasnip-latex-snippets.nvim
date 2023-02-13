@@ -78,7 +78,7 @@ local math_iA = {
     "Let $\\Omega \\subset \\C$ be open."
   ),
   ls.parser.parse_snippet({ trig = "nnn", name = "bigcap" }, "\\bigcap_{${1:i \\in ${2: I}}} $0"),
-  ls.parser.parse_snippet({ trig = "norm", name = "norm" }, "\\|$1\\|$0"),
+  -- ls.parser.parse_snippet({ trig = "norm", name = "norm" }, "\\|$1\\|$0"),
   ls.parser.parse_snippet({ trig = "<>", name = "hokje" }, "\\diamond "),
   ls.parser.parse_snippet({ trig = ">>", name = ">>" }, "\\gg"),
   ls.parser.parse_snippet({ trig = "<<", name = "<<" }, "\\ll"),
